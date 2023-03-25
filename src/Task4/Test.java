@@ -6,7 +6,8 @@ public class Test {
     public static void main(String[] args) {
         int[] nums = {7, -3, 9, -11, 18, 99, 2, 11};
 
-        for (int i = 0; i < 3; i++){
+        int count = 3;
+        for (int i = 0; i < count; i++){
             System.out.println(nums[i]);
         }
     }
